@@ -1,0 +1,77 @@
+/* Import Bulma CSS */
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css');
+@import url('https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css');
+
+/* Custom styles */
+body {
+    background-color: #1a1616;
+}
+
+/* Custom styling for the hero section */
+
+/* Background color for the hero section */
+.hero.is-primary {
+    background-color: #3498db; /* Blue color, change as needed */
+}
+
+/* Title styling */
+.hero .title {
+    color: #fff; /* White text color, change as needed */
+    font-size: 2.5rem; /* Example font size, adjust as needed */
+    font-weight: bold;
+}
+
+/* Subtitle styling */
+.hero .subtitle {
+    color: #fff; /* White text color, change as needed */
+}
+
+/* Logo styling */
+.hero img {
+    max-height: 160px; /* Example maximum height for the logo, adjust as needed */
+    max-width: 250%; /* Make the logo wider while maintaining aspect ratio */
+    margin: 1rem auto; /* Center the logo horizontally with some top margin */
+}
+/* Additional Custom Styles */
+/* Add a new class for centering and enlarging the logo */
+.center-enlarge-logo-container {
+    display: flex;
+    justify-content: left; /* Center the logo horizontally */
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Enlarge the logo */
+.center-enlarge-logo-container img {
+    max-height: 200px; /* Adjust the maximum height as needed */
+    max-width: 100%; /* Make the logo responsive while maintaining aspect ratio */
+}
+
+
+/* Add your own custom styles here */
+
+/* Navigation Menu */
+.navbar {
+    background-color: rgba(5, 230, 73, 0); /* Dark Green background color, change as needed */
+    color: #99055b; /* Text color, change as needed */
+}
+
+/* Message Box */
+.message.is-info {
+    background-color: #4caf50; /* Green color for info message, change as needed */
+}
+
+/* Card Styling */
+.card.is-shady {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Example box shadow, adjust as needed */
+}
+
+/* Card Image Styling */
+.card-image figure {
+    margin: 0; /* Remove default margin for the card image */
+}
+
+/* Card Content Styling */
+.card-content {
+    padding: 1rem; /* Example padding for the card content, adjust as needed */
+}
